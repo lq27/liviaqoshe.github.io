@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            color: #333;
+            background: #ffffff;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        h6 {
+            font-size: 18px;
+            font-weight: normal;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            font-size: 16px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            background: white;
+            border: 1px solid #333;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: block;
+        }
+
+        .btn:hover {
+            background: #333;
+            color: white;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: normal;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Name</h1>
+        
+        <h6>I'm a software engineer and researcher at Massachusetts General Hospital. I apply advanced statistical methods to pressing public and global health issues, such as TB, HIV, and smoking/vaping. As an engineer, I presently work with Python, C++, and R (see CV for full tech stack). <br><br>I graduated from Princeton University with highest honors in neuroscience and a minor in computer science. I've always been passionate about using data science and computer science to improving health. Through my health research, I have also developed an interest in qualitative methods, medical anthropology and sociology, and mixed-methods research.</h6>
+
+        <div class="buttons">
+            <a href="work-experience.html" class="btn">Work Experience</a>
+            <a href="projects.html" class="btn">Projects</a>
+            <a href="tech-stack.html" class="btn">Tech Stack</a>
+            <a href="https://github.com/lq27" class="btn">github</a>
+        </div>
+    </div>
+</body>
+</html>
